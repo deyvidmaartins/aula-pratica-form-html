@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Fomulários 1,2,3 e 4</title>
+    </head>
+    <body>
+        <h2>Fomulário 1.</h2>
+        <form action="fomulario.html" method="post">
+            <fieldset>
+            <h1>Tela de Login</h1>
+            <label for="nome">Usuário:</label>
+            <input type="text" id="usuario" name="usuario">
+            <br><br>
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" value="umasenha">            
+            <a href="https://www.instagram.com/accounts/password/reset/">Esqueceu a senha? Clique aqui.</a>
+            <br><br>
+            <input type="submit" value="Fazer Login">            
+            <input type="submit" value="Cadastrar">
+            </fieldset>          
+        </form>
+        <h2>Formulário 2.</h2>
+        <form action="formulario.html" method="post">
+            <fieldset>
+                <p>Dados Pessoais</p>
+                <br>
+                <label for="nome1">Nome:</label>                
+                <input type="text" id="dados" name="dados">
+                <br><br>
+                <label for="idade">Idade:</label>
+                <input type="number" id="idade" name="idade">
+                <br><br>
+                <p>Dados Profissionais</p>
+                <br>
+                <label for="escolaridade">Escolaridade:</label>
+                <select id="escolaridade">
+                    <option value="Ensino Médio">Ensino Médio</option>
+                    <option value="Graduação">Graduação</option>
+                    <option value="Pós-Graduação">Pós-Graduação</option>
+                    <option value="Outros">Outros</option>                    
+                </select>
+                <br><br>
+                <label>Área de atuação:</label>
+                <input type="radio" id="area" name="area" checked value="Gerência">
+                <label for="area">Gerência</label>
+                <input type="radio" id="area" name="area" value="Financeiro">
+                <label for="area1">Financeiro</label>
+                <input type="radio" id="area" name="area" value="Recepção">
+                <label for="area2">Recepção</label>               
+            </fieldset>       
+        </form>
+        <h2>Fomulário 3.</h2>
+        <form action="formulario.html" method="post">
+            <fieldset>
+            <h2>Formulário</h2>
+            <fieldset>               
+                <legend>Dados pessoais</legend>
+                <br>
+                <label>Nome:</label>
+                <input type="text" id="nome2" name="nome2">
+                <br><br>
+                <label>Endereço:</label>                
+                <input type="text" id="nome2" name="nome2">     
+                <br><br>          
+                <label>Cidade:</label>                
+                <input type="text" id="nome2" name="nome2">
+                <br><br>
+                <label for="Estado">Estado:</label>
+                <select id="estado">
+                    <option value="São Paulo">São Paulo</option>
+                    <option value="Rio de Janeiro">Rio de Janeiro</option>
+                    <option value="Pernambuco">Pernambuco</option>
+                    <option value="Bahia">Bahia</option>
+                    <option value="Manaus">Manaus</option>
+                    <option value="Acre">Acre</option>                    
+                </select>                             
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Dados Profissionais</legend>
+                <br>
+                <label>Natureza do Cargo</label>
+                <input type="radio" id="area" name="area" checked value="Gerência">
+                <label for="area">Gerência</label>
+                <input type="radio" id="area" name="area" value="Financeiro">
+                <label for="area1">Financeiro</label>
+                <input type="radio" id="area" name="area" value="Recepção">
+                <label for="area2">Recepção</label>
+                <input type="radio" id="area" name="area" value="Administrativo">
+                <label for="area1">Administrativo</label>
+                <input type="radio" id="area" name="area" value="Jurídico">
+                <label for="area1">Jurídico</label>
+                <br><br>
+                <label>Área de Interesse</label>
+                <br>
+                <input type="checkbox" id="interesse" name="interesse" value="computador">
+                <label for="interesse">Computação</label>
+                <input type="checkbox" id="interesse1" name="interesse1" value="biologia">
+                <label for="interesse1">Biologia</label>
+                <input type="checkbox" id="interesse2" name="interesse2" value="meioambiente">
+                <label for="interesse">Meio Ambiente</label>
+                <input type="checkbox" id="interesse3" name="interesse3" value="engenharia">
+                <label for="interesse">Engenharia</label>
+                <input type="checkbox" id="interesse4" name="interesse4" value="historia">
+                <label for="interesse">História</label>
+                <br><br>
+                <label for="comentario">Mini-Currículo:</label>
+                <textarea id="comentario" name="comentario" rows="4" cols="50"></textarea>    
+                <br><br>
+                <input type="submit" value="Enviar">    
+                <input type="submit" value="Limpar">                                                                         
+            </fieldset>
+            </fieldset>              
+        </form>
+            <h2>Formulário 4.</h2>
+        <form action="formulario.html" method="post">
+            <fieldset>
+            <p><b>Manutenção do Órgão Colegiado</b></p>
+            <br>
+            <table border="1">
+                <tr>
+                    <td>Unidade</td>
+                    <td>FACULDADE DE ENGENHARIA DE ILHA SOLTEIRA</td>
+                </tr>
+                <tr>
+                    <td>Tipo Colegiado</td>
+                    <td>CONGREGAÇÃO</td>
+                </tr>
+            </table>
+            <br>
+            <p><b>Orgão Colegiado</b></p>
+            <br>
+            <label for="nome3">Nome</label>
+            <input type="text" id="nome3" name="nome3">
+             </br></br>
+            <label>Sigla</label>
+            <input type="text" id="sigla" name="sigla">
+            <label for="status">Status</label>
+                <select id="estado">
+                    <option value="Ativado">Ativado</option>
+                    <option value="Desativado">Desativado</option>   
+                    <option value="Pendente">Pendente</option>                                 
+                </select>
+                <br><br>
+                <label for="data">Data de Ativação</label>
+                <input type="date" id="data" name="data">
+                <label for="data1">Data Desativação</label>
+                <input type="date" id="data1" name="data1">
+                <br><br>
+                <label for="nome4">Orgão de Origem</label>           
+                <input type="text" id="nome4" name="nome4">
+                <input type="submit" value="Buscar">
+                <br><br>
+                <label for="nome5">Orgão de Superior</label>           
+                <input type="text" id="nome5" name="nome5">
+                <input type="submit" value="Buscar">
+                <br><br>
+                <label for="comentario1">Documentação</label>
+                <br>
+                <textarea id="comentario1" name="comentario1" rows="4" cols="50"></textarea>
+                <br><br>
+                <input type="submit" value="Salvar">
+                <input type="submit" value="Excluir">                             
+            </fieldset>       
+        </form>        
+    </body>
+</html>
